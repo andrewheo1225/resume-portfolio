@@ -1,0 +1,245 @@
+
+/* everythign is capitalized*/
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 3s all ease;
+}
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
+}
+
+
+
+
+
+div.content {
+  height: 1000px;
+}
+h4, .h4, h1, .h1, h2, .h2, h3, .h3{
+  text-transform: capitalize;
+}
+h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  line-height: 1.2;
+  color: #343a40;
+}
+.fa{
+  color:white;
+}
+
+.mb-1{
+  font-size:80px
+}
+h1, .h1 {
+  font-size: calc(1.725rem + 3vw);
+}
+h1, .h1{
+  line-height: 1;
+}
+h3, .h3{
+  font-size:large;
+  color:grey;
+}
+h4, .h4{
+  font-size:medium;
+  color:grey;
+}
+/*About Section*/
+section.resume-section {
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 10rem;
+  padding-bottom: 5rem;
+  max-width: 130rem;
+}
+section.resume-section .resume-section-content {
+  width: 100%;
+}
+.horizontal-line{
+  margin-top: 60px;
+  margin-bottom: 20px;
+ 
+}
+.social-icons .social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: #495057;
+  color:white;
+  border-radius: 100%;
+  font-size: 1.5rem;
+  margin-right: 1.5rem;
+}
+.social-icons .social-icon:last-child {
+  margin-right: 0;
+}
+.social-icons .social-icon:hover {
+  background-color: #bd5d38;
+}
+/*Education Section*/
+
+.education-info{
+  float:left;
+
+}
+.date-rightside{
+  padding-top: 30px;
+  text-align: right;
+  float:right;
+  color:#F06C14;
+}
+.education-section{
+  margin-bottom: 16rem;
+  clear:both;
+}
+
+/*Work Experience Section*/
+.experience-section{
+
+}
+.experience-info{
+  float:left;
+}
+
+.dateexperience-rightside{
+  /*risky*/
+  position: relative;
+  bottom: 140px;
+  /*risky*/
+  text-align: right;
+  float:right;
+  color:#F06C14;
+}
+
+/* Leadership Section*/
+.leadership-section{
+
+}
+.leadership-info{
+  float:left;
+}
+
+.leadership-rightside{
+  /*risky*/
+  position: relative;
+
+  bottom: 230px;
+  /*risky*/
+  text-align: right;
+  float:right;
+  color:#F06C14;
+}
+
+/*Skils*/
+.social-icon{
+  margin-bottom: 5px;
+}
+
+.skill-icon{
+  padding-top:3px;
+}
+
+/*Awards*/
+.award-title{
+  margin-bottom:25px;
+}
+
+
+/*Projects*/
+.two-links{
+  display: flex;
+ 
+}
+
+
+
+
+@media screen and (max-width: 1200px) {
+  section.resume-section {
+    padding-top: 7rem;
+  }
+  .date-rightside{
+    clear:both;
+    text-align: left;
+    float:left;
+    color:#F06C14;
+  }
+  .dateexperience-rightside{
+    position: relative;
+    bottom: 2px;
+    margin-bottom:20px;
+    clear:both;
+    text-align: left;
+    float:left;
+    color:#F06C14;
+  }
+  .leadership-rightside{
+    position: relative;
+    bottom: 0px;
+    margin-bottom:20px;
+    clear:both;
+    text-align: left;
+    float:left;
+    color:#F06C14;
+  }
+}
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 738px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .content{
+    width:100%;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+  .date-rightside{
+    float:left;
+    color:#F06C14;
+  }
+  .dateexperience-rightside{
+    
+    float:left;
+    color:#F06C14;
+  }
+
+}
+
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 400px) {
+  .content{
+    width:100%;
+  }
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+  .date-rightside{
+    float:left;
+    color:#F06C14;
+  }
+  .dateexperience-rightside{
+    float:left;
+    color:#F06C14;
+  }
+  .education-section{
+    margin-bottom: 20rem;
+    clear:both;
+  }
+  .experience-section{
+    margin-bottom: 20rem;
+    clear:both;
+  }
+}
