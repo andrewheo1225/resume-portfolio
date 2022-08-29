@@ -14,7 +14,6 @@
 
 
 
-
 div.content {
   height: 1000px;
 }
@@ -87,6 +86,10 @@ section.resume-section .resume-section-content {
   background-color: #bd5d38;
 }
 /*Education Section*/
+.indent-text{
+  text-indent: 25px;
+  font-size: 13px;
+}
 
 .education-info{
   float:left;
@@ -102,7 +105,13 @@ section.resume-section .resume-section-content {
   margin-bottom: 16rem;
   clear:both;
 }
-
+.date-rightside-special{
+  
+  margin-top:-490px;
+  text-align: right;
+  float:right;
+  color:#F06C14;
+}
 /*Work Experience Section*/
 .experience-section{
 
@@ -174,6 +183,13 @@ section.resume-section .resume-section-content {
     float:left;
     color:#F06C14;
   }
+  .date-rightside-special{
+    clear:both;
+    text-align: left;
+    float:left;
+    color:#F06C14;
+    margin-top:20px;
+  }
   .dateexperience-rightside{
     position: relative;
     bottom: 2px;
@@ -219,6 +235,7 @@ section.resume-section .resume-section-content {
 
 /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
 @media screen and (max-width: 400px) {
+  
   .content{
     width:100%;
   }

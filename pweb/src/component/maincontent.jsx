@@ -40,12 +40,10 @@ function maincontent() {
 
       <section class="resume-section" id="AboutID">
         <div className="resume-section-content">
-         
-            <h1 className="mb-1">
-              Andrew
-              <span class="text-primary"> Heo</span>
-            </h1>
-
+          <h1 className="mb-1">
+            Andrew
+            <span class="text-primary"> Heo</span>
+          </h1>
 
           <div className="subheading mb-5">
             2420 Rossett St · Fort Lee, NJ 07024 · (201) 952-9020 ·{" "}
@@ -55,7 +53,7 @@ function maincontent() {
             I excel in utilizing modern frameworks in web development that
             focuses on the front-end and back-end. Eager to learn various
             databases and technologies to further expand my current skillset. I
-            am a undergraduate student majoring in Computer Science at Rutgers
+            am an undergraduate student majoring in Computer Science at Rutgers
             University, New Brunswick.
           </p>
           <div className="social-icons">
@@ -131,24 +129,59 @@ function maincontent() {
           <div className="education-section">
             <div className="education-info">
               <h2>Rutger's University - New Brunswick</h2>
-              <h3 className="subheading">Bachelor of Science</h3>
+              <h3 className="subheading">Bachelor of Science, GPA: 4.0/4.0</h3>
               <h4 className="subheading mt-4">
                 Major : Bachelor of Science - Computer Science
                 <br />
                 Minor : Digital Communication Information and Media
               </h4>
-
-              <h4 className="subheading mt-4">GPA: 4.0/4.0</h4>
+              <h3 className="subheading mt-4">Related Courses: </h3>
+              <h4 className="subheading">·Introduction to Computer Science:</h4>
+              <h4 className="indent-text">
+                Intensive introduction to computer science. Problem solving
+                through decomposition. Writing, debugging, and analyzing
+                programs in Java. Algorithms for sorting,searching and algorithms.
+              </h4>
+              <h4 className="subheading">·Data Structures:</h4>
+              <h4 className="indent-text">
+                Investigate the essential properties of data structures and
+                algorithms for operating on them; to use these structures as
+                tools to assist algorithm design; to extend exposure to
+                searching, sorting and hashing techniques.
+              </h4>
+              <h4 className="subheading">·Computer Architecture:</h4>
+              <h4 className="indent-text">
+                Covers the fundamental issues in the design of modern computer
+                systems, including the design and implementation of key hardware
+                components such as the processor, memory, and I/O devices, and
+                the software/hardware interface.
+              </h4>
+              <h4 className="subheading">
+                Principles of Information and Data Management:
+              </h4>
+              <h4 className="indent-text">
+                Querying various forms of information such as
+                structured data in relational databases, unstructured text (IR),
+                semi-structured data (XML, web). Implement conceptual
+                modeling, schema design, basics of database management system
+                services (transactions, reliability, security, optimization).
+                Advanced topics include: finding patterns in data, information mapping
+                and integration. 
+              </h4>
+              <h4 className="subheading">·Data 101:</h4>
+              <h4 className="indent-text">
+                Learn R, a statistical software environment and programming
+                language that we’ll use to analyze and visualize datasets.
+                Required to solve complex "data puzzles" on a weekly basis and understand the usage of "big data".
+              </h4>
             </div>
 
-            <h4 className="date-rightside">September 2020 - May 2024</h4>
+            <h4 className="date-rightside-special">September 2020 - May 2024</h4>
           </div>
           <div className="education-section">
             <div className="education-info">
               <h2 className="mt-4">Fort Lee High School</h2>
-              <h4 className="subheading mt-4">
-                Technical Focus
-              </h4>
+              <h4 className="subheading mt-4">Technical Focus</h4>
               <h4 className="subheading ">GPA: 3.6/4.0</h4>
             </div>
             <h4 className="date-rightside mt-1">September 2016 - May 2020 </h4>
@@ -209,7 +242,7 @@ function maincontent() {
                 Welcomed customers by preparing and serving a variety of drinks
                 along with parties upon customers’ requests, ensuring customers
                 receive quality customer service, and inspecting all machinery
-                for break-downs
+                for break-downs.
               </p>
             </div>
             <h4 className="dateexperience-rightside">
@@ -339,7 +372,6 @@ function maincontent() {
               </span>
               <h3 className="skill-icon">Microservice Architecture</h3>
             </li>
-             
           </ul>
         </div>
       </section>
@@ -458,7 +490,7 @@ function maincontent() {
               <a
                 rel="noopener noreferrer"
                 target="_blank"
-                href="https://github.com/andrewheo1225/portfolio"
+                href="https://github.com/andrewheo1225/resume-portfolio"
               >
                 <h2>Portfolio</h2>
               </a>
