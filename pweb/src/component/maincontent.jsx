@@ -171,7 +171,7 @@ function maincontent() {
               <h4 className="subheading">·Data 101:</h4>
               <h4 className="indent-text">
                 Learn R, a statistical software environment and programming
-                language that we’ll use to analyze and visualize datasets.
+                language that is used to analyze and visualize datasets.
                 Required to solve complex "data puzzles" on a weekly basis and understand the usage of "big data".
               </h4>
             </div>
@@ -277,7 +277,7 @@ function maincontent() {
                 ecosystem preservation.
               </p>
             </div>
-            <h4 className="leadership-rightside">May 2019 - July 2019</h4>
+            <h4 className="leadership-rightside">May 2019 - August 2019</h4>
           </div>
         </div>
       </section>
@@ -470,7 +470,7 @@ function maincontent() {
               </a>
               <h3 className="subheading">Co Web Developer</h3>
               <p className="lead mt-4">
-                Uses JSP as the front-end framework, and MySQL as the database.
+                Uses JSP/Eclipse as the front-end framework, and MySQL as the database.
                 Bootstrap is the main CSS framework used in this program.
                 Developed by 3 undergraduate programmers in a Rutger's
                 accreddited course, eAuction is a completely online auction

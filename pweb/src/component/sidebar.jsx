@@ -54,12 +54,12 @@ function sidebar() {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mx-auto">
-              <Nav.Link className = "text-dark ps-2 square border-bottom border-dark" onClick={scrollAbout}>About</Nav.Link>
-              <Nav.Link className = "text-dark ps-2 square border-bottom border-dark" onClick={scrollEducation}>Education</Nav.Link>
-              <Nav.Link className = "text-dark ps-2 square border-bottom border-dark" onClick={scrollExperience}>Experience</Nav.Link>
-              <Nav.Link className = "text-dark ps-2 square border-bottom border-dark" onClick={scrollLeadership}>Leadership</Nav.Link>
-              <Nav.Link className = "text-dark ps-2 square border-bottom border-dark" onClick={scrollSkillsAwards}>Skills & Awards</Nav.Link>
-              <Nav.Link className = "text-dark ps-2"onClick={scrollProjects}>Projects</Nav.Link>
+              <Nav.Link eventKey="1" className = "text-dark ps-2 square border-bottom border-dark" onClick={scrollAbout}>About</Nav.Link>
+              <Nav.Link eventKey="2" className = "text-dark ps-2 square border-bottom border-dark" onClick={scrollEducation}>Education</Nav.Link>
+              <Nav.Link eventKey="3" className = "text-dark ps-2 square border-bottom border-dark" onClick={scrollExperience}>Experience</Nav.Link>
+              <Nav.Link eventKey="4" className = "text-dark ps-2 square border-bottom border-dark" onClick={scrollLeadership}>Leadership</Nav.Link>
+              <Nav.Link eventKey="5" className = "text-dark ps-2 square border-bottom border-dark" onClick={scrollSkillsAwards}>Skills & Awards</Nav.Link>
+              <Nav.Link eventKey="6" className = "text-dark ps-2"onClick={scrollProjects}>Projects</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>

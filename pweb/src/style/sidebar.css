@@ -48,7 +48,12 @@ div.content {
   }
  .menutoggle{
     display:block;
+    position:fixed;
+    width:100%;
+    background:white;
+    z-index:99;
   }
+ 
   .navbar-color{
     background-color:#DCDCDC	
   } 
