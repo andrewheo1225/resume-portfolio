@@ -157,7 +157,7 @@ function maincontent() {
                 the software/hardware interface.
               </h4>
               <h4 className="subheading">
-                Principles of Information and Data Management:
+              ·Principles of Information and Data Management:
               </h4>
               <h4 className="indent-text">
                 Querying various forms of information such as
