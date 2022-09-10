@@ -15,6 +15,7 @@ import {
 
 import { faCheckSquare, faAward } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Pdf from "../img/resume.pdf";
 
 function maincontent() {
   function reveal() {
@@ -42,12 +43,16 @@ function maincontent() {
         <div className="resume-section-content">
           <h1 className="mb-1">
             Andrew
-            <span class="text-primary"> Heo</span>
+            <span class="text-primary">Heo</span>
           </h1>
 
           <div className="subheading mb-5">
             2420 Rossett St · Fort Lee, NJ 07024 · (201) 952-9020 ·{" "}
             <a href="mailto:name@email.com">andrewheo1225@gmail.com</a>
+            {" · "}
+            <a href={Pdf} without rel="noopener noreferrer" target="_blank">
+              Resume PDF
+            </a>
           </div>
           <p className="lead mb-5">
             I excel in utilizing modern frameworks in web development that
@@ -140,7 +145,8 @@ function maincontent() {
               <h4 className="indent-text">
                 Intensive introduction to computer science. Problem solving
                 through decomposition. Writing, debugging, and analyzing
-                programs in Java. Algorithms for sorting,searching and algorithms.
+                programs in Java. Algorithms for sorting,searching and
+                algorithms.
               </h4>
               <h4 className="subheading">·Data Structures:</h4>
               <h4 className="indent-text">
@@ -157,26 +163,28 @@ function maincontent() {
                 the software/hardware interface.
               </h4>
               <h4 className="subheading">
-              ·Principles of Information and Data Management:
+                ·Principles of Information and Data Management:
               </h4>
               <h4 className="indent-text">
-                Querying various forms of information such as
-                structured data in relational databases, unstructured text (IR),
-                semi-structured data (XML, web). Implement conceptual
-                modeling, schema design, basics of database management system
-                services (transactions, reliability, security, optimization).
-                Advanced topics include: finding patterns in data, information mapping
-                and integration. 
+                Querying various forms of information such as structured data in
+                relational databases, unstructured text (IR), semi-structured
+                data (XML, web). Implement conceptual modeling, schema design,
+                basics of database management system services (transactions,
+                reliability, security, optimization). Advanced topics include:
+                finding patterns in data, information mapping and integration.
               </h4>
               <h4 className="subheading">·Data 101:</h4>
               <h4 className="indent-text">
                 Learn R, a statistical software environment and programming
                 language that is used to analyze and visualize datasets.
-                Required to solve complex "data puzzles" on a weekly basis and understand the usage of "big data".
+                Required to solve complex "data puzzles" on a weekly basis and
+                understand the usage of "big data".
               </h4>
             </div>
 
-            <h4 className="date-rightside-special">September 2020 - May 2024</h4>
+            <h4 className="date-rightside-special">
+              September 2020 - May 2024
+            </h4>
           </div>
           <div className="education-section">
             <div className="education-info">
@@ -470,9 +478,9 @@ function maincontent() {
               </a>
               <h3 className="subheading">Co Web Developer</h3>
               <p className="lead mt-4">
-                Uses JSP/Eclipse as the front-end framework, and MySQL as the database.
-                Bootstrap is the main CSS framework used in this program.
-                Developed by 3 undergraduate programmers in a Rutger's
+                Uses JSP/Eclipse as the front-end framework, and MySQL as the
+                database. Bootstrap is the main CSS framework used in this
+                program. Developed by 3 undergraduate programmers in a Rutger's
                 accreddited course, eAuction is a completely online auction
                 website for clothes. Introduced with a login page, users are
                 allowed to log into, create, update and delete their account.
