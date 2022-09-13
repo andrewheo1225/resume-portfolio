@@ -202,16 +202,48 @@ function maincontent() {
       <section class="resume-section" id="ExperienceID">
         <div className="resume-section-content">
           <span className="reveal">
-            <h1 className="mb-5">Experience</h1>
+            <h1 className="mb-5">Employment</h1>
           </span>
 
           <div className="experience-section">
             <div className="experience-info">
-              <h2>V.I.P. Cleaners</h2>
-              <h3 className="subheading">Part-Time Manager</h3>
+              <h2>Rutgers University</h2>
+              <h3 className="subheading">Learning Assistant</h3>
 
               <p className="lead mt-4">
-                Created schedules according to each staff’s availabilities and
+              Independently lead supplemental study groups or weekly recitations with undergraduate students. 
+              Attend weekly meetings with faculty and organize discussions, workshops and group work for students
+              </p>
+            </div>
+            <h4 className="dateexperience-rightside">
+              September 2022 - Present
+            </h4>
+          </div>
+
+          <div className="experience-section">
+            {" "}
+            {/*  add "className = "education-section" " if you need to add more education for css margin problems */}
+            <div className="experience-info">
+              <h2>HackRU</h2>
+              <h4 className="subheading">Front-End Developer</h4>
+              <p className="lead mt-4">
+              Develop a website for HackRU that incorporates a login page, admin functionalities and a dashboard.
+              Collaborated with other HackRU team members for future projects, continuous integration and production
+              </p>
+            </div>
+            <h4 className="dateexperience-rightside">
+            September 2022 - Present
+            </h4>
+          </div>
+
+          <div className="experience-section">
+            {" "}
+            {/*  add "className = "education-section" " if you need to add more education for css margin problems */}
+            <div className="experience-info">
+              <h2>VIP Cleaners</h2>
+              <h4 className="subheading">Part-Time Manager</h4>
+              <p className="lead mt-4">
+              Created schedules according to each staff’s availabilities and
                 was responsible for managing any shift changes. Responsible for
                 recording all inventory expenditures and facilitating a positive
                 environment for the employees.
@@ -219,42 +251,6 @@ function maincontent() {
             </div>
             <h4 className="dateexperience-rightside">
               January 2017 - June 2019
-            </h4>
-          </div>
-
-          <div className="experience-section">
-            {" "}
-            {/*  add "className = "education-section" " if you need to add more education for css margin problems */}
-            <div className="experience-info">
-              <h2>French Monarch Cleaners</h2>
-              <h4 className="subheading">Part-Time Manager</h4>
-              <p className="lead mt-4">
-                Coordinated with employees to establish schedules and acted as
-                an intermediate for customer service. Communicated with
-                employees on a daily basis to discuss the utilization of supply
-                and to receive feedback.
-              </p>
-            </div>
-            <h4 className="dateexperience-rightside">
-              January 2017 - June 2019
-            </h4>
-          </div>
-
-          <div className="experience-section">
-            {" "}
-            {/*  add "className = "education-section" " if you need to add more education for css margin problems */}
-            <div className="experience-info">
-              <h2>Cafe Bark</h2>
-              <h4 className="subheading">Barista</h4>
-              <p className="lead mt-4">
-                Welcomed customers by preparing and serving a variety of drinks
-                along with parties upon customers’ requests, ensuring customers
-                receive quality customer service, and inspecting all machinery
-                for break-downs.
-              </p>
-            </div>
-            <h4 className="dateexperience-rightside">
-              December 2019 - August 2020
             </h4>
           </div>
         </div>
