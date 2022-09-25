@@ -145,8 +145,7 @@ function maincontent() {
               <h4 className="indent-text">
                 Intensive introduction to computer science. Problem solving
                 through decomposition. Writing, debugging, and analyzing
-                programs in Java. Algorithms for sorting,searching and
-                algorithms.
+                programs in Java. Algorithms for sorting and searching.
               </h4>
               <h4 className="subheading">·Data Structures:</h4>
               <h4 className="indent-text">
@@ -179,6 +178,23 @@ function maincontent() {
                 language that is used to analyze and visualize datasets.
                 Required to solve complex "data puzzles" on a weekly basis and
                 understand the usage of "big data".
+              </h4>
+              <h4 className="subheading">·Systems Programming:</h4>
+              <h4 className="indent-text">
+                Focuses on how to think about, build, debug, and test large computer programs. Learn how to use tools such as debuggers, profilers, 
+                source version control systems, and integrated development environments. 
+              </h4>
+              <h4 className="subheading">·Design/Analyze Algorithms:</h4>
+              <h4 className="indent-text">
+              Methods for comparing complexity of algorithms: worst and average cases, lower bounds on algorithm classes, and 
+              verification of correctness. Application of such analysis to variety of specific algorithms: searching, merging, sorting; 
+              graph problems; language problems.
+              </h4>
+              <h4 className="subheading">·Data Management For Data Science:</h4>
+              <h4 className="indent-text">
+                Designed to provide students with the knowledge and skills needed to acquire and curate real word data, to explore 
+              the data to discover patterns and distributions, and to manage large datasets with databases. Uses Python and Python
+              libraries to analyze data sets. Gain experience using relational databases like SQL and NoSQL databases.
               </h4>
             </div>
 
