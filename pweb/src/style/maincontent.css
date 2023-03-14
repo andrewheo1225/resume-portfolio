@@ -108,37 +108,26 @@ section.resume-section .resume-section-content {
 .education-info {
   float: left;
 }
-.date-rightside {
-  padding-top: 30px;
-  text-align: right;
-  float: right;
-  color: #f06c14;
-}
+
 .education-section {
-  margin-bottom: 16rem;
+  margin-bottom: 11rem;
   clear: both;
 }
-.date-rightside-special {
-  margin-top: -720px;
-  text-align: right;
-  float: right;
-  color: #f06c14;
+
+.row{
+  
+}
+.card{
+  margin-bottom: 30px;
+  margin-right: 10px;
 }
 /*Work Experience Section*/
-.experience-section {
-}
 .experience-info {
   float: left;
 }
-
-.dateexperience-rightside {
-  /*risky*/
-  position: relative;
-  bottom: 140px;
-  /*risky*/
-  text-align: right;
-  float: right;
-  color: #f06c14;
+.experience-section {
+  margin-bottom: 10rem;
+  clear: both;
 }
 
 /* Leadership Section*/
@@ -148,16 +137,6 @@ section.resume-section .resume-section-content {
   float: left;
 }
 
-.leadership-rightside {
-  /*risky*/
-  position: relative;
-
-  bottom: 230px;
-  /*risky*/
-  text-align: right;
-  float: right;
-  color: #f06c14;
-}
 
 /*Skils*/
 .social-icon {
@@ -178,40 +157,45 @@ section.resume-section .resume-section-content {
   display: flex;
 }
 
+
+/* date css*/
+.date-rightside {
+  clear: both;
+  text-align: left;
+  float: left;
+  color: #f06c14;
+}
+.date-rightside-special {
+  clear: both;
+  text-align: left;
+  float: left;
+  color: #f06c14;
+  margin-top: 20px;
+}
+.dateexperience-rightside {
+  position: relative;
+  bottom: 2px;
+  margin-bottom: 20px;
+  clear: both;
+  text-align: left;
+  float: left;
+  color: #f06c14;
+}
+.leadership-rightside {
+  position: relative;
+  bottom: 0px;
+  margin-bottom: 20px;
+  clear: both;
+  text-align: left;
+  float: left;
+  color: #f06c14;
+}
 @media screen and (max-width: 1200px) {
   section.resume-section {
     padding-top: 7rem;
   }
-  .date-rightside {
-    clear: both;
-    text-align: left;
-    float: left;
-    color: #f06c14;
-  }
-  .date-rightside-special {
-    clear: both;
-    text-align: left;
-    float: left;
-    color: #f06c14;
-    margin-top: 20px;
-  }
-  .dateexperience-rightside {
-    position: relative;
-    bottom: 2px;
-    margin-bottom: 20px;
-    clear: both;
-    text-align: left;
-    float: left;
-    color: #f06c14;
-  }
-  .leadership-rightside {
-    position: relative;
-    bottom: 0px;
-    margin-bottom: 20px;
-    clear: both;
-    text-align: left;
-    float: left;
-    color: #f06c14;
+  .card{
+    max-width:100%;
   }
 }
 /* On screens that are less than 700px wide, make the sidebar into a topbar */
@@ -231,10 +215,6 @@ section.resume-section .resume-section-content {
     margin-left: 0;
   }
   .date-rightside {
-    float: left;
-    color: #f06c14;
-  }
-  .dateexperience-rightside {
     float: left;
     color: #f06c14;
   }
@@ -266,7 +246,7 @@ section.resume-section .resume-section-content {
     color: #f06c14;
   }
   .education-section {
-    margin-bottom: 20rem;
+    margin-bottom: 13rem;
     clear: both;
   }
   .experience-section {
