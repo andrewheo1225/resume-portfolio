@@ -47,7 +47,7 @@ function maincontent() {
           </h1>
 
           <div className="subheading mb-5">
-            2420 Rossett St · Fort Lee, NJ 07024 · (201) 952-9020 ·{" "}
+            Fort Lee, NJ 07024 · (201) 952-9020 ·{" "}
             <a href="mailto:name@email.com">andrewheo1225@gmail.com</a>
             {" · "}
             <a href={Pdf} without rel="noopener noreferrer" target="_blank">
@@ -139,6 +139,8 @@ function maincontent() {
                 Major : Bachelor of Science - Computer Science
                 <br />
                 Minor : Digital Communication Information and Media
+                <br />
+                Rutgers Data Science Certificate
               </h4>
               <h3 className="subheading mt-4">Related Courses: </h3>
               <div className="row">
@@ -414,18 +416,40 @@ function maincontent() {
 
           <div className="experience-section">
             <div className="experience-info">
+              <h2>Branch Brook Park Alliance</h2>
+              <h3 className="subheading">Information Technology Associate</h3>
+              <p className="lead mt-4">
+                Leverage Google Analytics to analyze our nonprofit's
+                organization and social media platforms. Extracting valuable
+                insights from user behavior and engagement metrics, I optimized
+                their online presence through strategic enhancements in website
+                design, refined content strategies, and targeted marketing
+                campaigns.Lead a pollinator conservation project and created a
+                specialized web page for it.
+              </p>
+            </div>
+            <h4 className="dateexperience-rightside">Summer 2023</h4>
+          </div>
+
+          <div className="experience-section">
+            <div className="experience-info">
               <h2>Rutgers University</h2>
               <h3 className="subheading">Learning Assistant</h3>
+              <h4 className="subheading">
+                Introduction to CS, Physics 1, Physics 1 Lab, Physics 2, Physics
+                2 Lab
+              </h4>
 
               <p className="lead mt-4">
-                Independently lead supplemental study groups or weekly
-                recitations with undergraduate students. Attend weekly meetings
-                with faculty and organize discussions, workshops and group work
-                for students
+                Support students in their educational journey through
+                recitations, labs, facilitating learning activities, and
+                promoting academic success. I tailor instruction to individual
+                needs, contribute to curriculum development, and assess program
+                effectiveness.
               </p>
             </div>
             <h4 className="dateexperience-rightside">
-              September 2022 - Present
+              September 2022 - Spring 2024
             </h4>
           </div>
 
@@ -443,7 +467,7 @@ function maincontent() {
               </p>
             </div>
             <h4 className="dateexperience-rightside">
-              September 2022 - Present
+              September 2022 - Spring 2023
             </h4>
           </div>
 
@@ -579,13 +603,13 @@ function maincontent() {
               <span class="fa-li">
                 <FontAwesomeIcon icon={faCheckSquare} />
               </span>
-              <h3 className="skill-icon">Scalability</h3>
+              <h3 className="skill-icon">Databases</h3>
             </li>
             <li>
               <span class="fa-li">
                 <FontAwesomeIcon icon={faCheckSquare} />
               </span>
-              <h3 className="skill-icon">Microservice Architecture</h3>
+              <h3 className="skill-icon">Website Design and Development</h3>
             </li>
           </ul>
         </div>
@@ -614,19 +638,31 @@ function maincontent() {
               </span>
               2020 AP Scholar with Distinction
             </li>
-
             <li>
               <span class="fa-li">
                 <FontAwesomeIcon icon={faAward} />
               </span>
-              Rutger's Deans List - 2020
+              Received the SAS Excellence Award, School of Arts & Sciences
+              Scholarship Fund
+            </li>
+            <li>
+              <span class="fa-li">
+                <FontAwesomeIcon icon={faAward} />
+              </span>
+              Rutger's Deans List - Fall 2020 / Spring 2021
             </li>
 
             <li>
               <span class="fa-li">
                 <FontAwesomeIcon icon={faAward} />
               </span>
-              Rutger's Deans List - 2021
+              Rutger's Deans List - Fall 2021 / Spring 2021
+            </li>
+            <li>
+              <span class="fa-li">
+                <FontAwesomeIcon icon={faAward} />
+              </span>
+              Rutger's Deans List - Fall 2022 / Spring 2023
             </li>
           </ul>
         </div>
