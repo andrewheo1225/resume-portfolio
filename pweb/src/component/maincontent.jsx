@@ -47,7 +47,7 @@ function maincontent() {
           </h1>
 
           <div className="subheading mb-5">
-            Fort Lee, NJ 07024 · (201) 952-9020 ·{" "}
+            Fort Lee, NJ · (201) 952-9020 ·{" "}
             <a href="mailto:name@email.com">andrewheo1225@gmail.com</a>
             {" · "}
             <a href={Pdf} without rel="noopener noreferrer" target="_blank">
@@ -308,7 +308,7 @@ function maincontent() {
               <h2 className="mt-4">Fort Lee High School</h2>
               <h4 className="subheading">Technical Focus</h4>
               <h4 className="subheading mt-3 ">GPA: 3.6/4.0</h4>
-              <h4 className="subheading mt-3 ">AP Related Courses</h4>
+              <h4 className="subheading mt-3 ">AP Related Courses:</h4>
             </div>
           </div>
 
@@ -656,7 +656,7 @@ function maincontent() {
               <span class="fa-li">
                 <FontAwesomeIcon icon={faAward} />
               </span>
-              Rutger's Deans List - Fall 2021 / Spring 2021
+              Rutger's Deans List - Fall 2021 / Spring 2022
             </li>
             <li>
               <span class="fa-li">
