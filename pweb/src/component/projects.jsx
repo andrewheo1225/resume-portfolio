@@ -1,9 +1,10 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
 import "../style/maincontent.css";
+import dcim from "../img/dcim.pdf";
 export default class projects extends Component {
   render() {
     return (
-        <section class="resume-section" id="ProjectsID">
+      <section class="resume-section" id="ProjectsID">
         <div className="resume-section-content">
           <span className="reveal">
             <h1 className="mb-5">Projects</h1>
@@ -126,8 +127,26 @@ export default class projects extends Component {
               </p>
             </div>
           </div>
+
+          <div className="experience-section">
+            <div calssName="experience-info">
+              <a href={dcim} without rel="noopener noreferrer" target="_blank">
+                <h2>DCIM Capstone</h2>
+              </a>
+              <h3 className="subheading">
+                Increasing Reliance on Social Media
+              </h3>
+              <p className="lead mt-4">
+                A Digital Communication Information and Media project describing
+                the positive and negative effects of the increasing reliance on
+                social media. A netrual stance is required to understand both
+                sides of this argument. This is the final project for the DCIM
+                and the culmination of the capstone course.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
-    )
+    );
   }
 }
