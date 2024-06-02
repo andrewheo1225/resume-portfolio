@@ -1,10 +1,10 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
 import Pdf from "../img/resume.pdf";
-import "../style/maincontent.css"; 
+import "../style/maincontent.css";
 export default class about extends Component {
   render() {
     return (
-        <section class="resume-section" id="AboutID">
+      <section class="resume-section" id="AboutID">
         <div className="resume-section-content">
           <h1 className="mb-1">
             Andrew
@@ -22,9 +22,8 @@ export default class about extends Component {
           <p className="lead mb-5">
             I excel in utilizing modern frameworks in web development that
             focuses on the front-end and back-end. Eager to learn various
-            databases and technologies to further expand my current skillset. I
-            am an undergraduate student majoring in Computer Science at Rutgers
-            University, New Brunswick.
+            databases and technologies to further expand my current skillset. I am a Summa Cum Laude 
+            Graduate of Rutgers University - New Brunswick.
           </p>
           <div className="social-icons">
             <a
@@ -86,6 +85,6 @@ export default class about extends Component {
           </div>
         </div>
       </section>
-    )
+    );
   }
 }

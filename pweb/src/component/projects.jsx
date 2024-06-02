@@ -133,6 +133,9 @@ export default class projects extends Component {
               <a href={dcim} without rel="noopener noreferrer" target="_blank">
                 <h2>DCIM Capstone</h2>
               </a>
+              <a href="https://www.youtube.com/watch?v=qn5yOgjV_hw" without rel="noopener noreferrer" target="_blank">
+                <h3>YouTube</h3>
+              </a>
               <h3 className="subheading">
                 Increasing Reliance on Social Media
               </h3>

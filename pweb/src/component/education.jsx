@@ -1,9 +1,9 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
 import "../style/maincontent.css";
 export default class education extends Component {
   render() {
     return (
-        <section class="resume-section" id="EducationID">
+      <section class="resume-section" id="EducationID">
         <div className="resume-section-content">
           <span className="reveal">
             <h1 className="mb-5">Education</h1>
@@ -12,7 +12,7 @@ export default class education extends Component {
           <div className="education-section">
             <div className="education-info">
               <h2>Rutger's University - New Brunswick</h2>
-              <h3 className="subheading">Bachelor of Science, GPA: 4.0/4.0</h3>
+              <h3 className="subheading">Bachelor of Science, GPA: 4.0/4.0, Summa Cum Laude</h3>
               <h4 className="subheading mt-4">
                 Major : Bachelor of Science - Computer Science
                 <br />
@@ -181,108 +181,8 @@ export default class education extends Component {
             </h4>
           </div>
           {/* High school Education */}
-          <div className="education-section">
-            <div className="education-info">
-              <h2 className="mt-4">Fort Lee High School</h2>
-              <h4 className="subheading">Technical Focus</h4>
-              <h4 className="subheading mt-3 ">GPA: 3.6/4.0</h4>
-              <h4 className="subheading mt-3 ">AP Related Courses:</h4>
-            </div>
-          </div>
-
-          <div className="row">
-            <div className="col-xl-4">
-              <div className="card w-100" style={{ width: "18rem" }}>
-                <div className="card-body">
-                  <h5 className="card-title">US History</h5>
-                  <h6 className="card-subtitle mb-2 text-muted">4/5</h6>
-                  <p className="card-text">
-                    Study the cultural, economic, political, and social
-                    developments that have shaped the United States from c. 1491
-                    to the present. Analyze texts, visual sources, and other
-                    historical evidence and write essays expressing historical
-                    arguments.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-4">
-              <div className="card w-100" style={{ width: "18rem" }}>
-                <div className="card-body">
-                  <h5 className="card-title">World History(Modern)</h5>
-                  <h6 className="card-subtitle mb-2 text-muted">4/5</h6>
-                  <p className="card-text">
-                    Study the cultural, economic, political, and social
-                    developments that have shaped the world from c. 1200 CE to
-                    the present. Analyze texts, visual sources, and other
-                    historical evidence and write essays expressing historical
-                    arguments.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-4">
-              <div className="card w-100" style={{ width: "18rem" }}>
-                <div className="card-body">
-                  <h5 className="card-title">Computer Science A</h5>
-                  <h6 className="card-subtitle mb-2 text-muted">4/5</h6>
-                  <p className="card-text">
-                    Get familiar with the concepts and tools of computer science
-                    as you learn a subset of the Java programming language.
-                    You'll do hands-on work to design, write, and test computer
-                    programs that solve problems or accomplish tasks.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-4">
-              <div className="card w-100" style={{ width: "18rem" }}>
-                <div className="card-body">
-                  <h5 className="card-title">US Government And Polictics</h5>
-                  <h6 className="card-subtitle mb-2 text-muted">5/5</h6>
-                  <p className="card-text">
-                    Study the key concepts and institutions of the political
-                    system and culture of the United States. You'll read,
-                    analyze, and discuss the U.S. Constitution and other
-                    documents as well as complete a research or applied civics
-                    project.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-4">
-              <div className="card w-100" style={{ width: "18rem" }}>
-                <div className="card-body">
-                  <h5 className="card-title">Computer Science Principles</h5>
-                  <h6 className="card-subtitle mb-2 text-muted">5/5</h6>
-                  <p className="card-text">
-                    Introductory college-level computing course that introduces
-                    students to the breadth of the field of computer science.
-                    Students learn to design and evaluate solutions and to apply
-                    computer science to solve problems through the development
-                    of algorithms and programs.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-4">
-              <div className="card w-100" style={{ width: "18rem" }}>
-                <div className="card-body">
-                  <h5 className="card-title">Calculus AB</h5>
-                  <h6 className="card-subtitle mb-2 text-muted">5/5</h6>
-                  <p className="card-text">
-                    Explore the concepts, methods, and applications of
-                    differential and integral calculus. You’ll work to
-                    understand the theoretical basis and solve problems by
-                    applying your knowledge and skills.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <h4 className="date-rightside mt-1">September 2016 - May 2020 </h4>
-          </div>
         </div>
       </section>
-    )
+    );
   }
 }
