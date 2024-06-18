@@ -73,6 +73,12 @@ export default class awards extends Component {
               <span class="fa-li">
                 <FontAwesomeIcon icon={faAward} />
               </span>
+              Rutger's Deans Excellence Award - Fall 2020- Spring 2024
+            </li>
+            <li>
+              <span class="fa-li">
+                <FontAwesomeIcon icon={faAward} />
+              </span>
               <a
                 href="https://www.https://www.rutgers.edu/news/fulbright-student-dedicated-improving-public-health-among-top-grads-honored-during-matthew.com/watch?v=qn5yOgjV_hw"
                 without
